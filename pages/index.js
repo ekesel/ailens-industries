@@ -3,6 +3,7 @@ import data from '../data.json';
 import InfoHeader from '../components/InfoHeader';
 import Header from '../components/Header';
 import NavBar from '../components/NavBar';
+import CarouselWrap from '../components/CarouselWrap';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         certificate={data?.certificate}
        />
        <NavBar />
+      <CarouselWrap carouselImages={data?.carouselImages} />
     </div>
   );
 }

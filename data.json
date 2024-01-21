@@ -13,5 +13,10 @@
     "emailHelpText": "Email Us",
     "email": "aivision@ai-lens.ai",
     "certificateText": "Global Certificate",
-    "certificate": "ISO 9001:2017"
+    "certificate": "ISO 9001:2017",
+    "carouselImages": [
+        "/images/bg1.jpg",
+        "/images/bg2.jpg",
+        "/images/bg3.jpg"
+    ]
 }
