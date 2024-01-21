@@ -1,0 +1,136 @@
+.dropdownItem {
+    padding: 0.75rem;
+    list-style: none;
+    background-color: #ffb600;
+    cursor: pointer;
+}
+
+.dropdownItem:hover {
+    background-color: #fff;
+    color: #23282d;
+}
+
+/* NAVIGATION */
+.navContainer {
+    background: #23282d;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+
+.centerContainer {
+    margin: auto;
+    width: 50%;
+    list-style: none;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-inline-start: 0px !important;
+}
+
+.centerContainer li {
+    align-self: center;
+}
+
+.centerContainer li a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.centerContainer li a,
+.centerContainer li a:after,
+.centerContainer li a:before {
+    transition: all .5s;
+}
+
+.centerContainer li a:hover {
+    color: #ffb600;
+}
+
+.centerContainer li a {
+    position: relative;
+}
+
+.centerContainer li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #ffb600;
+    height: 1px;
+}
+
+.centerContainer li a {
+    transition: all 2s;
+}
+
+.centerContainer li a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+}
+
+.centerContainer li a:hover {
+    color: #fff !important;
+    z-index: 1;
+}
+
+.centerContainer li a:hover:after {
+    z-index: -10;
+    animation: fill 0.5s forwards;
+    -webkit-animation: fill 0.5s forwards;
+    -moz-animation: fill 0.5s forwards;
+    opacity: 1;
+}
+
+.products {
+    text-transform: uppercase;
+}
+
+.productButton {
+    background-color: #23282d;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+/* Keyframes */
+@keyframes fill {
+    0% {
+        width: 0%;
+        height: 1px;
+    }
+
+    50% {
+        width: 100%;
+        height: 1px;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+        background: #ffb600;
+    }
+}
+
+
+/* mobile */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .centerContainer li a {
+        padding: 5px;
+    }
+    .centerContainer {
+        padding-left: unset;
+    }
+}

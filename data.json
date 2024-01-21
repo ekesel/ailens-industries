@@ -1,0 +1,17 @@
+{
+    "title": "AI Lens Industries",
+    "favicon": "/favicon.ico",
+    "location": "Bangalore, KA",
+    "socialMedia": {
+        "linkedIn": "https://www.linkedin.com/feed/",
+        "twitter": "https://www.x.com/",
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/"
+    },
+    "callHelpText": "Call Us",
+    "phone": "(+1) 8187317253",
+    "emailHelpText": "Email Us",
+    "email": "aivision@ai-lens.ai",
+    "certificateText": "Global Certificate",
+    "certificate": "ISO 9001:2017"
+}

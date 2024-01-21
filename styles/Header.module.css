@@ -1,0 +1,56 @@
+.headerSection {
+    position: relative;
+}
+
+.centerContainer {
+    margin: auto;
+    width: 50%;
+    padding: 0.75rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    text-align: center;
+    align-items: center;
+}
+
+.logo {
+    width: 8rem;
+    height: 8rem;
+    display: block;
+    overflow: hidden;
+    align-self: center;
+    background: url(../images/ailogo.webp) no-repeat center;
+    background-size: contain;
+}
+
+.infoSecton {
+    display: flex;
+}
+
+.callColumn {
+    display: flex;
+    flex-direction: column;
+    border-right: 0.5px solid rgb(190, 189, 189);
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+.helpText {
+    text-align: start;
+
+}
+
+.helpValue {
+    font-weight: 600;
+}
+
+
+.certificateColumn {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.5rem;
+}
