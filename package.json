@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.12.1",
     "@nextui-org/react": "^2.2.9",
     "framer-motion": "^10.18.0",
     "next": "latest",

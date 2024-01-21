@@ -18,5 +18,33 @@
         "/images/bg1.jpg",
         "/images/bg2.jpg",
         "/images/bg3.jpg"
-    ]
+    ],
+    "subHeadingTitle": "OUR PRODUCTS",
+    "subHeadingSubTitle": "Elevate your AI experience: explore our suite of virtual solutions.",
+    "subHeadingKey": "products",
+    "tileOne": {
+        "text": "Industries",
+        "desc": "Academia-backed & In-house researched State-of-the-Art Face, Fingerprint, and Iris Recognition SDKs. Enable real-time automated Biometric applications on edge devices even without an active internet connection."
+    },
+    "tileTwo": {
+        "text": "Fashion",
+        "desc": "Outsource the overly complex image analysis work to our intelligent machines that adaptively learn, so you can focus on making the best decisions for your business."
+    },
+    "contact": {
+        "key": "contact_form",
+        "title": "We welcome your questions & ideas",
+        "field1Name": "Name",
+        "field1Placeholder": "Enter your Name",
+        "field2Name": "Email",
+        "field2Placeholder": "Enter your Email",
+        "field3Name": "Message",
+        "field3Placeholder": "Enter your Message",
+        "submitText": "Send Message",
+        "responseTitle": "Thank You!",
+        "responseText": "We will get back to you within 24 hours at the email address you have provided.",
+        "responseSubmit": "Great!",
+        "errorBtnText": "Try Again :(",
+        "errorTitle": "Uh - Oh!",
+        "errorText": "We encountered some error while sending your thoughts, Try Again or mail us at aivision@ai-lens.ai"
+    }
 }
