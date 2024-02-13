@@ -75,3 +75,20 @@
     background-size: contain;
 }
 
+/* mobile */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .centerContainer {
+        width: 100%;
+    }
+
+    .socialLinks {
+        gap: 1rem;
+    }
+}
+
+/* tablet */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .centerContainer {
+        width: 100%;
+    }
+}

@@ -24,9 +24,12 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .subTitle {
         font-size: 0.7rem;
+        width: 100%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        letter-spacing: unset;
     }
     .container {
         padding: 2.5rem 0 4rem 0;
-        margin-bottom: 5rem;
     }
 }
