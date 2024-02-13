@@ -1,0 +1,82 @@
+.container {
+    border-radius: 25px;
+    background-color: #23282d;
+    border: 1px solid;
+    height: 500px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.yellowHead {
+    border: 2px solid #ffb600 !important;
+    background-image: linear-gradient(to top left, #23282d, #fcd165);
+}
+
+.blueHead {
+    border: 2px solid rgb(63, 189, 241) !important;
+    background-image: linear-gradient(to top left, #23282d, rgb(125, 205, 239));
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.number {
+    font-size: 88px;
+    color: #454b52;
+}
+
+.yellowNumber {
+    font-size: 88px;
+    color: #c99000;
+}
+
+.blueNumber {
+    font-size: 88px;
+    color: rgb(0, 143, 204);
+}
+
+.text {
+    font-size: 32px;
+    margin-left: -25px;
+    font-weight: 600;
+}
+
+.yellowText {
+    color: #ffb600;
+}
+
+.blueText {
+    color: rgb(63, 189, 241);
+}
+
+.textOnHover {
+    font-size: 32px;
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+
+.bodyText {
+    font-size: 18px;
+    color: #fff;
+}
+
+.imageWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 250px;
+    height: 200px;
+    display: block;
+    overflow: hidden;
+    align-self: center;
+    background-size: contain;
+}
