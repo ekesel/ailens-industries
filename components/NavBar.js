@@ -3,12 +3,12 @@ import styles from '../styles/navbar.module.css'
 import Link from 'next/link';
 
 
-const NavBar = () => {
+const NavBar = (props) => {
 
   return (
     <nav className={styles.navContainer}>
       <ul className={styles.centerContainer}>
-        <li><Link href="/">Home</Link></li>
+        <li><Link href={props?.homeLink}>Home</Link></li>
         <li>
         <Link href="/#products">Products</Link>
         </li>

@@ -46,7 +46,7 @@ const Filter = (props) => {
           })}
         </ul>
       </div>
-      <div className={styles.tileCenterContainer}>
+      <div className={styles.tileCenterContainer} id="products">
         <div className={styles.tileContainer}>
           {selectedCatObjs.map(function (object, i) {
             return <div className={styles.tile}>

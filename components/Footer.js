@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
 
-const Footer = ({ contactData, socialMedia }) => {
+const Footer = ({ contactData, socialMedia, homeLink }) => {
     const [contactName, setContactName] = useState('');
     const [contactEmail, setContactEmail] = useState('');
     const [contactMsg, setContactMsg] = useState('');
@@ -167,7 +167,7 @@ const Footer = ({ contactData, socialMedia }) => {
                         </div>
                     </div>
                     <ul className={styles.menu}>
-                        <li className={styles.menu__item}><Link className={styles.menu__link} href="/">Home</Link></li>
+                        <li className={styles.menu__item}><Link className={styles.menu__link} href={homeLink}>Home</Link></li>
                         <li className={styles.menu__item}><Link className={styles.menu__link} href="/#products" prefetch={true}>Products</Link></li>
                     </ul>
                     <p className={styles.copyright}>&copy; 2024 AI Lens Industries | All Rights Reserved</p>

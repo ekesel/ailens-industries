@@ -23,8 +23,8 @@
     width: 50%;
     list-style: none;
     display: flex;
-    align-items: start;
-    justify-content: start;
+    align-items: center;
+    justify-content: center;
     padding-inline-start: 0px !important;
 }
 

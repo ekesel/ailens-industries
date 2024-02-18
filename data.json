@@ -1,27 +1,23 @@
 {
-    "title": "AI Lens Industries",
     "favicon": "/favicon.ico",
     "location": "Bangalore, KA",
-    "socialMedia": {
-        "linkedIn": "https://www.linkedin.com/feed/",
-        "twitter": "https://www.x.com/",
-        "facebook": "https://www.facebook.com/",
-        "instagram": "https://www.instagram.com/"
+    "homeLink": "https://papaya-profiterole-c8ab3c.netlify.app/",
+    "header": {
+        "title": "AI Lens Industries",
+        "phone": "+1 818 731 7253",
+        "location": "Bangalore, KA",
+        "socialMedia": {
+            "linkedIn": "https://www.linkedin.com/feed/",
+            "twitter": "https://www.x.com/",
+            "facebook": "https://www.facebook.com/",
+            "instagram": "https://www.instagram.com/"
+        }
     },
-    "callHelpText": "Call Us",
-    "phone": "(+1) 8187317253",
-    "emailHelpText": "Email Us",
-    "email": "aivision@ai-lens.ai",
-    "certificateText": "Global Certificate",
-    "certificate": "ISO 9001:2017",
     "carouselImages": [
         "/images/bg1.jpg",
         "/images/bg2.jpg",
         "/images/bg3.jpg"
     ],
-    "subHeadingTitle": "OUR PRODUCTS",
-    "subHeadingSubTitle": "Elevate your AI experience: explore our suite of virtual solutions.",
-    "subHeadingKey": "products",
     "tileOne": {
         "text": "Industries",
         "desc": "Academia-backed & In-house researched State-of-the-Art Face, Fingerprint, and Iris Recognition SDKs. Enable real-time automated Biometric applications on edge devices even without an active internet connection."
