@@ -167,4 +167,7 @@
     .mobileText {
         font-size: 0.7rem;
     }
+    .topHeader .row {
+        flex-direction: column;
+    }
 }
