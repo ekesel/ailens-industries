@@ -3,12 +3,8 @@ import data from '../data.json';
 import Header from '../components/Header';
 import NavBar from '../components/NavBar';
 import CarouselWrap from '../components/CarouselWrap';
-// import SubHeading from '../components/SubHeading';
-// import styles from '../styles/Home.module.css';
-// import Tile from '../components/Tile';
 import Footer from '../components/Footer';
-import Filter from '../components/Filter';
-// import Link from 'next/link';
+import Categories from '../components/Categories';
 
 export default function Home() {
   return (
@@ -38,7 +34,7 @@ export default function Home() {
           </div>
         </div>
       </div> */}
-      <Filter categories={data?.categories} />
+      <Categories categories={data?.category_types} />
       <Footer contactData={data?.contact} socialMedia={data?.header?.socialMedia} homeLink={data?.homeLink} />
     </div>
   );

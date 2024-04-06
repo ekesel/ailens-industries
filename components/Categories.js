@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useEffect } from 'react';
-import styles from '../styles/filter.module.css';
+import styles from '../styles/categories.module.css';
 import ImageTile from './ImageTile';
 
 
@@ -33,23 +33,22 @@ const Categories = (props) => {
       setSelectedCatObjs(catList)
     }
   }, [selectedCategory])
+  
+  const redirectPage = (link) => {
+    window.location.href = link
+  }
 
   return (
     <Fragment>
       <div className={styles.container}>
-        <ul className={styles.centerContainer}>
-          {categories.map(function (object, i) {
-            return <li key={i} onClick={(e)=> {
-              e.preventDefault();
-              setSelectedCategory(object)
-            }} className={selectedCategory == object ? `${styles.activeCell}` : ''}><a>{object}</a></li>;
-          })}
-        </ul>
       </div>
       <div className={styles.tileCenterContainer} id="products">
         <div className={styles.tileContainer}>
           {selectedCatObjs.map(function (object, i) {
-            return <div className={styles.tile}>
+            return <div className={styles.tile} onClick={(e)=>{
+              e.preventDefault();
+              redirectPage(object?.link)
+          }}>
             <ImageTile data={object} number={i+1} color={'yellow'} />
           </div>
           })}

@@ -73,8 +73,7 @@
 }
 
 .image {
-    width: 200px;
-    height: 150px;
+    height: 200px;
     display: block;
     overflow: hidden;
     align-self: center;

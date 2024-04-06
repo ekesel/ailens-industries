@@ -43,7 +43,61 @@
         "errorTitle": "Uh - Oh!",
         "errorText": "We encountered some error while sending your thoughts, Try Again or mail us at aivision@ai-lens.ai"
     },
-    "categories": [
+    "category_types": [
+        {
+            "category": "technology",
+            "text": "Technology",
+            "image": "/images/tech.jpg",
+            "link": "/tech",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "category": "industries",
+            "text": "Industries",
+            "image": "/images/tech.jpg",
+            "link": "/industries",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+    ],
+    "tech": [
+        {
+            "category": "dell",
+            "text": "DELL TV 1",
+            "image": "/images/delltv1.jpg",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "category": "dell",
+            "text": "DELL TV 2",
+            "image": "/images/delltv2.jpg",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "category": "sony",
+            "text": "Sony TV 1",
+            "image": "/images/sonytv1.jpg",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "category": "lg",
+            "text": "LG TV 1",
+            "image": "/images/lgtv1.jpg",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "category": "samsung",
+            "text": "Samsung TV 1",
+            "image": "/images/samsungtv1.jpg",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "category": "sony",
+            "text": "Sony TV 2",
+            "image": "/images/sonytv2.jpg",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+    ],
+    "industries": [
         {
             "category": "dell",
             "text": "DELL TV 1",
