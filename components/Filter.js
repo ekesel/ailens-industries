@@ -1,6 +1,7 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import styles from '../styles/filter.module.css';
 import ImageTile from './ImageTile';
+import CardSet from './CardSet';
 
 
 const Categories = (props) => {
@@ -18,9 +19,8 @@ const Categories = (props) => {
     setCategories(catList)
   }, [])
 
-  useEffect(()=> {
-    if(selectedCategory == 'All')
-    {
+  useEffect(() => {
+    if (selectedCategory == 'All') {
       setSelectedCatObjs(props?.categories)
     }
     else {
@@ -34,27 +34,33 @@ const Categories = (props) => {
     }
   }, [selectedCategory])
 
+  const [isMobileView, setIsMobileView] = useState(false)
+
+  // check mobile view
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 768px)')
+    if (mediaQuery.matches) {
+      setIsMobileView(true)
+    }
+    else
+      setIsMobileView(false)
+  }, [])
+
   return (
     <Fragment>
       <div className={styles.container}>
         <ul className={styles.centerContainer}>
           {categories.map(function (object, i) {
-            return <li key={i} onClick={(e)=> {
+            return <li key={i} onClick={(e) => {
               e.preventDefault();
               setSelectedCategory(object)
             }} className={selectedCategory == object ? `${styles.activeCell}` : ''}><a>{object}</a></li>;
           })}
         </ul>
       </div>
-      <div className={styles.tileCenterContainer} id="products">
-        <div className={styles.tileContainer}>
-          {selectedCatObjs.map(function (object, i) {
-            return <div className={styles.tile}>
-            <ImageTile data={object} number={i+1} color={'yellow'} />
-          </div>
-          })}
-        </div>
-      </div>
+      {selectedCatObjs.map(function (object, i) {
+        return <CardSet data={object} position={isMobileView ? 'right' : object?.mediaCardPosition} productLink={object?.productLink} />
+      })}
     </Fragment>
   )
 }

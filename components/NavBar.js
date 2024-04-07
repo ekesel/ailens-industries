@@ -38,7 +38,7 @@ const NavBar = (props) => {
             </DropdownMenu>
           </Dropdown>
         </li>
-        <li><Link href="/#contact_form" scroll={false}>Contact</Link></li>
+        <li><Link href="#contact_form" scroll={true}>Contact</Link></li>
       </ul>
     </nav>
   )

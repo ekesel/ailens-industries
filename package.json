@@ -12,7 +12,8 @@
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-material-ui-carousel": "^3.4.2"
+    "react-material-ui-carousel": "^3.4.2",
+    "react-player": "^2.15.1"
   },
   "engines": {
     "node": ">=18"
