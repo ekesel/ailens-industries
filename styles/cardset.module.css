@@ -75,8 +75,9 @@
     gap: 1rem;
 }
 
+
 /* tablet */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1080px) {
     .right {
         min-width: unset;
     }
